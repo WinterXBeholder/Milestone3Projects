@@ -1,4 +1,4 @@
-package packages.Lesson01Exceptions;
+package learn.Lesson01Exceptions;
 
 // Checked Exception. Extend a checked exception
 public class NegativeValueException extends Exception {

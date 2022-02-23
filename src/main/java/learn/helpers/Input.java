@@ -1,4 +1,4 @@
-package packages.helpers;
+package learn.helpers;
 
 import java.util.NoSuchElementException;
 import java.util.Scanner;

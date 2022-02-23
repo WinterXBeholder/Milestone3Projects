@@ -1,4 +1,4 @@
-package packages.Lesson02Enums;
+package learn.Lesson02Enums;
 
 public enum Move {
     ROCK, PAPER, SCISSORS;

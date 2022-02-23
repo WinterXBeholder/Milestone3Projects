@@ -1,6 +1,4 @@
-import packages.Lesson01Exceptions.Lesson01ExceptionMain;
-import packages.Lesson02Enums.Lesson02EnumsMain;
-import packages.Lesson03FileIO.Lesson03FileIOMain;
+import learn.Lesson03FileIO.Lesson03FileIOMain;
 
 public class App {
     public static void main(String[] args) {

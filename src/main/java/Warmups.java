@@ -1,4 +1,4 @@
-import packages.helpers.Input;
+import learn.helpers.Input;
 
 import java.io.BufferedReader;
 import java.io.IOException;

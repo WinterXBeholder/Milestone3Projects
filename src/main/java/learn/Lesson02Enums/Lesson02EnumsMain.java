@@ -1,11 +1,9 @@
-package packages.Lesson02Enums;
+package learn.Lesson02Enums;
 
-import packages.helpers.Input;
+import learn.helpers.Input;
 import java.nio.file.AccessMode;
 
-import java.sql.SQLOutput;
 import java.util.Arrays;
-import java.util.Locale;
 import java.util.Scanner;
 
 public class Lesson02EnumsMain {

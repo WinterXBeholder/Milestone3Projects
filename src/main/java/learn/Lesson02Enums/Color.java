@@ -1,4 +1,4 @@
-package packages.Lesson02Enums;
+package learn.Lesson02Enums;
 
 public enum Color {
     // Instantiation must be the first thing in the definition.

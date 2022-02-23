@@ -1,6 +1,6 @@
-package packages.Lesson01Exceptions;
+package learn.Lesson01Exceptions;
 
-import packages.helpers.Input;
+import learn.helpers.Input;
 
 import java.io.FileNotFoundException;
 import java.io.FileReader;
