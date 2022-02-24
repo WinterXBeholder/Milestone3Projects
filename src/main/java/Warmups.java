@@ -1,8 +1,11 @@
 import learn.helpers.Input;
 
 import java.io.BufferedReader;
+import java.io.File;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Warmups {
@@ -41,6 +44,12 @@ public class Warmups {
                         break;
                     case "07":
                         warmup07();
+                        break;
+                    case "08":
+                        warmup08();
+                        break;
+                    case "09":
+                        warmup09();
                         break;
                     default:
                         System.out.println("try again");
@@ -253,8 +262,47 @@ public class Warmups {
         System.out.println(decoded);
     }
 
+    public static void warmup08() {
+        /*
+        String message = "...Something ...something dark side... Something ...something Sith.";
+        String fileName = "secretMessage.txt";
+        File file = new File(fileName);*/
+    }
 
+    public static void stringToFile(String message) {
 
+    }
+
+    public static void stringFromFile(String fileName) {
+
+    }
+
+    public static void warmup09() {
+        String[] testInputs = {"C", "C#", "CD", "ACE", "CC#DFEA#A#"};
+        for (int i = 0; i < testInputs.length; i++) {
+            majorThirds(testInputs[i]);
+        }
+    }
+
+    public static void majorThirds(String input) {
+        String[] notes = {"C", "C#", "D", "D#", "E", "F", "F#", "G", "G#", "A", "A#", "B"};
+        ArrayList<String> majorThird = new ArrayList<>();
+        System.out.printf("Your input was: %s%n", input);
+
+        for (int i = 0; i < input.length(); i++) {
+            String c = Character.toString(input.charAt(i));
+            int index = 0;
+            if (c.equals("#")) {
+                String note = input.charAt(i-1) + "#";
+                index = (Arrays.asList(notes).indexOf(note) + 4) % 12;
+                majorThird.set(majorThird.size()-1, notes[index]);
+            } else {
+                index = (Arrays.asList(notes).indexOf(c) + 4) % 12;
+                majorThird.add(notes[index]);
+            }
+        }
+        System.out.printf("Your major thirds are: %s%n", majorThird);
+    }
 
 
 
