@@ -1,4 +1,4 @@
-package learn.Lesson05Repository.memories.data;
+package learn.memories.data;
 
 public class DataAccessException extends Exception {
         /* A primary goal of the data access layer is hiding the underlying technology. Our users (other developers,

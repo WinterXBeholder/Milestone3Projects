@@ -1,6 +1,6 @@
-package learn.Lesson05Repository.memories.data;
+package learn.memories.data;
 
-import learn.Lesson04Layers.memories.models.Memory;
+import learn.memories.models.Memory;
 
 import java.io.*;
 import java.util.ArrayList;

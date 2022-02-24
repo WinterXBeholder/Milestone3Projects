@@ -1,4 +1,4 @@
-package learn.Lesson04Layers.memories.models;
+package learn.memories.models;
 
 public class Memory {
 
